@@ -10,10 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include  "libft.h"
 
 static size_t	ft_nbr(size_t nbr, const char *str, int i, int sign)
-{
+{ 
 	while (str[i] >= '0' && str[i] <= '9')
 	{
 		nbr = (nbr * 10) + (str[i] - '0');
